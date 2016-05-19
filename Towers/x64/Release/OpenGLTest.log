@@ -1,0 +1,30 @@
+﻿  display.cpp
+  main.cpp
+  mesh.cpp
+mesh.cpp(41): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  obj_loader.cpp
+obj_loader.cpp(27): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(84): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(121): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(136): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(164): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(262): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(296): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(329): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+obj_loader.cpp(378): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+obj_loader.cpp(386): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  shader.cpp
+shader.cpp(114): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  texture.cpp
+  stb_image.c
+stb_image.c(300): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+stb_image.c(362): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+stb_image.c(400): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+stb_image.c(501): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+stb_image.c(514): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+stb_image.c(4293): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+x64\Release\display.obj : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
